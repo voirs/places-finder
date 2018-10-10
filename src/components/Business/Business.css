@@ -1,0 +1,97 @@
+.Business {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+width: 16.66rem;
+margin: 0 .5rem 2.3rem .5rem;
+padding: 1em;
+margin-top: 4em;
+border-radius: 11px;
+-webkit-box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+        box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6); 
+background: #def2d5;
+-webkit-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+.Business:hover {
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.Business .image-container {
+height: 16.66rem;
+margin-bottom: 1rem;
+}
+
+.Business h2 {
+color: #141214;
+margin-bottom: .5rem;
+font-size: 1.2rem;
+font-weight: 600;
+}
+
+.Business-information {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+
+.Business-information p {
+font-size: .88rem;
+font-weight: 300;
+line-height: 1rem;
+}
+
+.Business-information a {
+color: #333;
+}
+
+.Business-address {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+
+.Business-reviews {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+text-align: right;
+}
+
+.Business-reviews h3 {
+color: #60988D;
+font-weight: 600;
+}
+
+.Business-reviews .rating {
+font-size: .88rem;
+line-height: 1rem;
+}
