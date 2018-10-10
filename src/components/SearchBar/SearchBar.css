@@ -112,7 +112,17 @@
           transform:scale(1.1);
 }
 
+
+@media (min-width: 681px) and (max-width: 958px)  {
+   .SearchBar-fields input{
+     width: 16rem;
+  }
+}
+
 @media screen and (max-width: 680px)  {
+  h2 {
+    font-size: 1.3rem;
+  }
   .SearchBar-sort-options ul {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -129,7 +139,6 @@
   }
 
   .SearchBar-fields input{
-    width: 10rem;
      margin-right: 0;
     margin-bottom: .86rem;
   }
