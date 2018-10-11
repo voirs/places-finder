@@ -82,7 +82,7 @@ class SearchBar extends React.Component {
           <Autocomplete
     onPlaceSelected={(place) => {
     }}
-    types={['(regions)']} onKeyPress={this.handleKeyPress} onChange={this.handleLocationChange} placeholder="Where?" />
+    types={['(regions)']} onKeyPress={this.handleKeyPress} onChange={this.handleLocationChange} placeholder="In what city?" />
         </div>
         <div onClick={this.handleSearch} className="SearchBar-submit" id="search-button">
           <a>Show Me</a>
