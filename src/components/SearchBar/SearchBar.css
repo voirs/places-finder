@@ -120,8 +120,12 @@
 }
 
 @media screen and (max-width: 680px)  {
+  h1 {
+    color: #888;
+  }
   h2 {
     font-size: 1.3rem;
+    margin: 1em 1em;
   }
   .SearchBar-sort-options ul {
     margin-left: 2rem;
