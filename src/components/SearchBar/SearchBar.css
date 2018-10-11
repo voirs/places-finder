@@ -96,6 +96,7 @@
   background-color: #8EC39E;
   color: #ffffff;
   font-weight: 600;
+  box-shadow: 0 6px #66AC91;
   -webkit-transition: background-color .5s;
   -o-transition: background-color .5s;
   transition: background-color .5s;
@@ -112,7 +113,6 @@
           transform:scale(1.1);
 }
 
-
 @media (min-width: 681px) and (max-width: 958px)  {
    .SearchBar-fields input{
      width: 16rem;
@@ -120,10 +120,7 @@
 }
 
 @media screen and (max-width: 680px)  {
-  h1 {
-    color: #888;
-  }
-  h2 {
+   h2 {
     font-size: 1.3rem;
     margin: 1em 1em;
   }
@@ -145,5 +142,17 @@
   .SearchBar-fields input{
      margin-right: 0;
     margin-bottom: .86rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+ h1 {
+    color: #2E8B83;
+  }
+  h2, .SearchBar-sort-options ul, .SearchBar-submit a {
+    color: #333;
+  }
+  .SearchBar-sort-options li.active {
+    color: #2E8B83;
   }
 }
