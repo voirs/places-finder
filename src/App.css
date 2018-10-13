@@ -21,8 +21,6 @@ background-size: cover;
 overflow-x: hidden;
 }
 
-/* Reusable Component - Image Container */
-
 .image-container {
   display: flex;
   flex-direction: column;
@@ -35,7 +33,6 @@ overflow-x: hidden;
   width: 100%;
 }
 
-/* App Styles */
 
 .App {
   font-family: 'Work Sans', sans-serif;
