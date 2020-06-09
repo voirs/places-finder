@@ -19,12 +19,18 @@ class App extends React.Component {
   }
 
   render() {
-    return (<div className="App">
-      <h1>Places Finder</h1>
-      <h2> This app lets you find interesting things to do in a certain location. Give it a try! </h2>
-      <SearchBar searchYelp={this.searchYelp}/>
-      <BusinessList businesses={this.state.businesses}/>
-    </div>);
+    return (
+      <div className="App">
+        <h1>Around Me</h1>
+        <h2>
+          {" "}
+          This app lets you find interesting things to do in a certain location.
+          Give it a try! <span role="img" aria-label="smiling face with sunglasses emoji">😎</span>
+        </h2>
+        <SearchBar searchYelp={this.searchYelp} />
+        <BusinessList businesses={this.state.businesses} />
+      </div>
+    );
   }
 }
 
