@@ -22,14 +22,16 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Around Me</h1>
-        <h2>
-          {" "}
-          This app lets you find interesting activities to do in a certain
-          location. Give it a try!{" "}
-          <span role="img" aria-label="smiling face with sunglasses emoji">
-            😎
-          </span>
-        </h2>
+        <div className="description">
+          <h2>
+            {" "}
+            This app lets you find interesting activities to do in a certain
+            location. Give it a try!{" "}
+            <span role="img" aria-label="smiling face with sunglasses emoji">
+              😎
+            </span>
+          </h2>
+        </div>
         <SearchBar searchYelp={this.searchYelp} />
         <BusinessList businesses={this.state.businesses} />
       </div>
