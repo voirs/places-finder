@@ -4,12 +4,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 18rem;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 1.5em;
 }
 
@@ -18,8 +17,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 2.22rem;
   color: #ffffff;
 }
@@ -28,14 +27,14 @@
   cursor: pointer;
   width: 4.33rem;
   border-bottom: 1px solid #fff;
-  padding: 0 2.58rem .33rem 2.58rem;
+  padding: 0 2.58rem 0.33rem 2.58rem;
   line-height: 1.13;
   text-align: center;
   font-weight: 600;
-  font-size: .83rem;
-  -webkit-transition: color .25s;
-  -o-transition: color .25s;
-  transition: color .25s;
+  font-size: 0.83rem;
+  -webkit-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
   list-style: none;
 }
 
@@ -45,8 +44,8 @@
 
 .SearchBar-sort-options li.active,
 .SearchBar-sort-options li.active:hover {
-  border-bottom: 1px solid #BFDEB1;
-  color: #BFDEB1;
+  border-bottom: 1px solid #bfdeb1;
+  color: #bfdeb1;
 }
 
 .SearchBar-fields {
@@ -54,14 +53,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 2.88rem;
 }
 
 .SearchBar-fields input {
   width: 21rem;
-  padding: .66rem 1rem;
+  padding: 0.66rem 1rem;
   margin-right: 1.22rem;
   border: 1px solid #fff;
   border-radius: 4px;
@@ -73,16 +72,20 @@
   margin-right: 0;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   font-size: 1.2rem;
 }
-::-moz-placeholder { /* Firefox 19+ */
+::-moz-placeholder {
+  /* Firefox 19+ */
   font-size: 1.2rem;
 }
-:-ms-input-placeholder { /* IE 10+ */
+:-ms-input-placeholder {
+  /* IE 10+ */
   font-size: 1.2rem;
 }
-:-moz-placeholder { /* Firefox 18- */
+:-moz-placeholder {
+  /* Firefox 18- */
   font-size: 1.2rem;
 }
 
@@ -90,17 +93,19 @@
   text-align: center;
 }
 
-.SearchBar-submit a {
+.SearchBar-submit button {
   border-radius: 9px;
-  padding: .72rem 1.7rem;
-  background-color: #8EC39E;
+  padding: 0.72rem 1.7rem;
+  background-color: #8ec39e;
   color: #ffffff;
+  border: none;
+  font-size: 0.8em;
   font-weight: 600;
-  box-shadow: 0 6px #66AC91;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
-  transition: background-color .5s;
-  text-transform: uppercase;  
+  box-shadow: 0 6px #66ac91;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -108,19 +113,19 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  -webkit-transform:scale(1.1);
-      -ms-transform:scale(1.1);
-          transform:scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-@media (min-width: 681px) and (max-width: 958px)  {
-   .SearchBar-fields input{
-     width: 16rem;
+@media (min-width: 681px) and (max-width: 958px) {
+  .SearchBar-fields input {
+    width: 16rem;
   }
 }
 
-@media screen and (max-width: 680px)  {
-   h2 {
+@media screen and (max-width: 680px) {
+  h2 {
     font-size: 1.3rem;
     margin: 1em 1em;
   }
@@ -132,27 +137,34 @@
   .SearchBar-fields {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
-  .SearchBar-fields input{
-     margin-right: 0;
-    margin-bottom: .86rem;
+  .SearchBar-fields input {
+    margin-right: 0;
+    margin-bottom: 0.86rem;
+    text-align: center;
+    width: 18rem;
   }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
- h1 {
-    color: #2E8B83;
+  h1 {
+    color: #2e8b83;
   }
-  h2, .SearchBar-sort-options ul, .SearchBar-submit a {
+  h2,
+  .SearchBar-sort-options ul,
+  .SearchBar-submit button {
     color: #333;
   }
   .SearchBar-sort-options li.active {
-    color: #2E8B83;
+    color: #2e8b83;
+  }
+  .SearchBar-sort-options ul {
+    margin-left: 10px;
   }
 }

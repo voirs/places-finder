@@ -1,9 +1,9 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
 
-import BusinessList from "./components/BusinessList/BusinessList";
-import SearchBar from "./components/SearchBar/SearchBar";
-import Yelp from "./util/Yelp";
+import BusinessList from './components/BusinessList/BusinessList';
+import SearchBar from './components/SearchBar/SearchBar';
+import Yelp from './util/Yelp';
 
 class App extends React.Component {
   constructor(props) {
@@ -24,9 +24,9 @@ class App extends React.Component {
         <h1>Around Me</h1>
         <div className="description">
           <h2>
-            {" "}
+            {' '}
             This app lets you find interesting activities to do in a certain
-            location. Give it a try!{" "}
+            location. Give it a try!{' '}
             <span role="img" aria-label="smiling face with sunglasses emoji">
               😎
             </span>
