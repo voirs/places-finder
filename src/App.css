@@ -15,7 +15,7 @@ input:focus {
 }
 
 body {
-  background: url('images/cool-background.png');
+  background: url('images/bg.png');
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;

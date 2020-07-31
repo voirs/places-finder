@@ -1,5 +1,4 @@
 import React from 'react';
-import Autocomplete from 'react-google-autocomplete';
 import './SearchBar.css';
 
 class SearchBar extends React.Component {
@@ -91,10 +90,7 @@ class SearchBar extends React.Component {
             onChange={this.handleTermChange}
             placeholder="What are you interested in?"
           />
-
-          <Autocomplete
-            onPlaceSelected={(place) => {}}
-            types={['(regions)']}
+          <input
             onKeyPress={this.handleKeyPress}
             onChange={this.handleLocationChange}
             placeholder="In what city?"
